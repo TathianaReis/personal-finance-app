@@ -1,0 +1,17 @@
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.transaction {
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-block: 1.25rem;
+  padding-block: 1.25rem;
+  border-bottom: solid 1px var(--grey-100);
+}
+
+.transaction-title {
+  flex: 1;
+}

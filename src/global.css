@@ -1,0 +1,74 @@
+*:root {
+  --font-family: 'Public Sans', sans-serif;
+
+  --fs-small-100: 0.75rem;
+  --fs-small-200: 0.875rem;
+  --fs-regular: 1rem;
+  --fs-large-100: 1.25rem;
+  --fs-large-200: 2rem;
+
+  --white: #fff;
+  --beige-100: #f8f4f0;
+  --beige-500: #98908b;
+  --grey-100: #f2f2f2;
+  --grey-300: #b3b3b3;
+  --grey-500: #696868;
+  --grey-900: #201f24;
+  --green-300: #277c78;
+  --yellow-300: #f2cdac;
+  --cyan: #82c9d7;
+  --navy: #626070;
+  --navy-grey: #97a0ac;
+  --red-300: #c94736;
+  --purple-100: #af81ba;
+  --purple-300: #826cb0;
+  --turquoise: #597c7c;
+  --brown: #93674f;
+  --magenta: #934f6f;
+  --blue-300: #3f82b2;
+  --army-green: #7f9161;
+  --gold: #cab361;
+  --orange: #be6c49;
+}
+
+:focus {
+  outline: transparent;
+  /* box-shadow: 0 0 0 2px var(--green-300); */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background: var(--beige-100);
+  color: var(--grey-900);
+  -webkit-font-smoothing: antialiased;
+}
+body,
+imput,
+textarea,
+button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.fs-small-100 {
+  font-size: 0.75rem;
+}
+.fs-small-200 {
+  font-size: 0.875rem;
+}
+.fs-regular {
+  font-size: 1rem;
+}
+.fs-large-100 {
+  font-size: 1.25rem;
+}
+.fs-large-200 {
+  font-size: 2rem;
+}
