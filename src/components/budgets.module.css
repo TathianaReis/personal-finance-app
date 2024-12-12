@@ -1,32 +1,25 @@
-.budgets .content {
+.content {
   gap: 2rem;
   flex-wrap: wrap;
 }
 
-.budgets .text-wrap {
+.text-wrap {
   padding-left: 1rem;
 }
 
-.budget {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  flex: 1;
-}
-
-.budget div:nth-child(1) {
+.budgetColours div:nth-child(1) {
   border-left: solid 4px var(--green-300);
 }
 
-.budget div:nth-child(2) {
+.budgetColours div:nth-child(2) {
   border-left: solid 4px var(--cyan);
 }
 
-.budget div:nth-child(3) {
+.budgetColours div:nth-child(3) {
   border-left: solid 4px var(--yellow-300);
 }
 
-.budget div:nth-child(4) {
+.budgetColours div:nth-child(4) {
   border-left: solid 4px var(--navy);
 }
 

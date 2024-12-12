@@ -1,4 +1,4 @@
-.total-saved .ph-light {
+.total-saved .phLight {
   color: var(--green-300);
   font-size: 40px;
 }
@@ -15,12 +15,16 @@
   padding-left: 1rem;
 }
 
-.pots .content {
+.content {
   gap: 2rem;
   flex-wrap: wrap;
 }
 
-.savings div:nth-child(1) {
+.transaction-info {
+  border-left: solid 4px var(--theme-color);
+}
+
+/* .savings div:nth-child(1) {
   border-left: solid 4px var(--green-300);
 }
 
@@ -34,4 +38,4 @@
 
 .savings div:nth-child(4) {
   border-left: solid 4px var(--yellow-300);
-}
+} */

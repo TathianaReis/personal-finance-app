@@ -1,4 +1,4 @@
-.bills .content {
+.content {
   gap: 0.75rem;
 }
 
@@ -8,14 +8,14 @@
   flex: 1;
 }
 
-.bills .content > div:nth-child(1) {
+.content > div:nth-child(1) {
   border-left: solid 4px var(--green-300);
 }
 
-.bills .content > div:nth-child(2) {
+.content > div:nth-child(2) {
   border-left: solid 4px var(--orange);
 }
 
-.bills .content > div:nth-child(3) {
+.content > div:nth-child(3) {
   border-left: solid 4px var(--cyan);
 }
